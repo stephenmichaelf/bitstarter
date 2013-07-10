@@ -1,1 +1,1 @@
-http://github.com/stephenmichaelf/bitstarter, http://nameless-hamlet-2795.herokuapp.com/
+https://github.com/stephenmichaelf/bitstarter/blob/c0a415166bd6968e93363b795a60f3bec0b06853/index.html
