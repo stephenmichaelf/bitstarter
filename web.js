@@ -6,7 +6,7 @@ var fileContents = fs.readFileSync('index.html');
 var buffer = new Buffer(fileContents);
 
 app.get('/', function(request, response) {
-  response.send(buffer.toString(0, buffer.length));
+  response.send(buffer.toString('utc 8', 0, buffer.length));
 });
 
 var port = process.env.PORT || 5000;
